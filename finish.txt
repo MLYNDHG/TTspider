@@ -1,0 +1,217 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<script type="text/javascript" src="/min/12ArWF.js?t=1562035932"></script>
+	<script type="text/javascript" src="/min/SFI1f-VnPkN-16SkAx-6BWrt-53pbs.js?t=1459938952"></script>
+	<link href="/min/9Gkmx-rq1yM.css?t=1535969900" rel="stylesheet" type="text/css" />
+	<link href="/min/XgRMy-TiCyf-xAnTs-9hrPP.css?t=1513325655" rel="stylesheet" type="text/css" />
+	<link href="/min/crFms-mfd7J.css?t=1479458562" rel="stylesheet" type="text/css" />
+	<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>互感-乐乐课堂</title>
+	<meta name="applicable-device" content="pc" />
+	<script>
+		var _hmt = _hmt || [];
+		(function() {
+			var hm = document.createElement("script");
+			hm.src = "//hm.baidu.com/hm.js?8296a32ce52c7db4820be505c8738193";
+			var s = document.getElementsByTagName("script")[0]; 
+			s.parentNode.insertBefore(hm, s);
+		})();
+	</script>
+
+</head>
+<body>
+	<div class="global_canvas" style="background-image:url(/dat/cr/canvas/default3.jpg)"></div>
+	<script>
+		var width=window.screen.availWidth;
+		var height=window.screen.availHeight;
+		if(typeof window.orientation=='number'){
+			if(window.orientation==0||window.orientation==180){
+			}else {
+				height=window.screen.availWidth;
+				width=window.screen.availHeight;
+			}
+		}
+		if(width> 1.77 * height){
+			$(".global_canvas").css("background-size", width + "px");
+		}else{
+			$(".global_canvas").css("background-size", "auto " + height + "px");
+		}
+	</script>
+<div class="wrapper clearfix">
+    <div class="wrapper_left">
+        <a class="return_button" href="stages.php?id=281509"></a>
+    </div>
+    <div class="wrapper_right2">
+        <div class="play_box play_knowledge_box">
+            <div class="pb_bottom clearfix">
+                <div class="pb_player" style="width:100%;">
+                    	<div id="jp_container_1" class="jp-video">
+		<div id="pb_player" class="jp-jplayer" style="width:{this->_size['width']};height:500px"></div>
+		<div class="jp-gui">
+		    <div class="jp-interface">
+		        <div class="jp-controls-holder">
+				    <a class="jp-play" tabindex="1">play</a>
+				    <a class="jp-pause" tabindex="1">pause</a>
+				    <div class="jp-progress">
+				        <div class="jp-seek-bar">
+							<div class="jp-play-bar"><span class="jp-seek-bar-point"></span></div>
+						</div>
+				    </div>
+					<div class="jp-time-bar">
+						<div class="jp-current-time"></div>
+						<span class="time-sep">/</span>
+						<div class="jp-duration"></div>
+					</div>
+				    <a class="jp-mute" tabindex="1" title="mute">mute</a>
+				    <a class="jp-unmute" tabindex="1" title="unmute">unmute</a>
+				    <div class="jp-volume-bar">
+				        <div class="jp-volume-bar-value"><span class="handle"></span></div>
+				    </div>
+				    <a class="jp-full-screen" tabindex="1" title="full screen">full screen</a>
+				    <a class="jp-restore-screen" tabindex="1" title="restore screen">restore screen</a>
+		        </div>
+		    </div>
+		</div>
+		<div class="jp-no-solution" style="display:none;">
+		    <span>您正在使用的浏览器暂时不支持视频播放。</span>
+		</div>
+	</div>
+	<script type="text/javascript">
+	$(document).ready(function(){
+		$.jPlayer.timeFormat.showHour = true;
+		$("#pb_player").jPlayer({
+			ready: function () {
+				$(this).jPlayer("setMedia", {
+					m4v: "//v.leleketang.com/dat/hs/ph/k/video/27967.mp4",
+					ogv: "//v.leleketang.com/dat/hs/ph/k/video/27967.ogv",
+					poster: "//www.leleketang.com/dat/knowledge/pic/default2.png"
+				});
+			},
+
+			swfPath: "http://www.leleketang.com/js/",
+			supplied: "webmv, ogv, m4v, mp3",
+			size: {
+				width: "100%",
+				height: "500px",
+				cssClass: ""
+			},
+			smoothPlayBar: true,
+			keyEnabled: true
+		});
+	});
+	</script>
+                    <div class="pb_cover" id="pb_cover" action="pause">
+                        <span class="pb_btn_play" action="play"></span>
+                        <div class="pb_c_content">
+                            知识点介绍：<br/><br/>
+                            <span class="uc_q_object">1. 知道互感现象；<br />
+2. 知道互感现象可以传递能量；<br />
+3. 知道互感现象的应用；<br />
+4. 知道两个线路间互感大小的决定因素。</span>                        </div>
+                    </div>
+                    <div class="rate_seletor">
+                        <div class="play_rate" data-rate="1.2">1.2×</div>
+                        <div class="play_rate" data-rate="1.1">1.1×</div>
+                        <div class="play_rate green" data-rate="1">1×</div>
+                        <div class="play_rate" data-rate="0.9">0.9×</div>
+                        <div class="play_rate" data-rate="0.8">0.8×</div>
+                    </div>
+                </div>
+            </div>
+            <div class="knowledge_info">
+                <div class="knowledge_info_name">互感<span class="knowledge_info_views">（<span class="knowledge_info_views_num">3255</span> 次浏览）</span></div>
+                <a class="btn_exercise" href="stage_start.php?id=14891">去闯关</a>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('.jp-controls-holder').append('<div class="pb_rate"><div class="current_rate">原速</div></div>');
+        var rate_done;
+        $('.current_rate').click(function(){
+            $('.rate_seletor').toggle();
+            clearTimeout(rate_done);
+            rate_done = setTimeout(function(){
+                $('.rate_seletor').hide();
+            }, 5000);
+        });
+        $('.play_rate').click(function(){
+            clearTimeout(rate_done);
+            $('.rate_seletor').hide();
+            $('.play_rate').removeClass('green');
+            $(this).addClass('green');
+            var rate = $(this).data('rate');
+            if (rate == 1) {
+                $('.current_rate').html('原速');
+            } else {
+                $('.current_rate').html(rate + '×');
+            }
+            $('.jp-jplayer').jPlayer('playbackRate', rate);
+        });
+        var jp = $('#pb_player'), cover = $('#pb_cover');
+        clickInit();
+        jp.bind($.jPlayer.event.ended, function () {
+            cover.addClass('pb_c_show');
+            jp.jPlayer('restoreScreen');
+            var html = [];
+            html.push('<span class="pb_cover_btn pb_btn_practice"><span class="btn_value" action="practice">去闯关</span><span class="btn_cover"></span></span>');
+            html.push('<span class="pb_cover_btn pb_btn_replay"><span action="play" class="btn_value">重播</span><span class="btn_cover"></span></span>');
+            cover.html(html.join(''));
+            clickInit();
+            cover.attr('action', '');
+        }).bind($.jPlayer.event.play, function () {
+            cover.removeClass('pb_c_show').html('').attr('action', 'pause').find('.pb_btn_play').hide();
+        }).bind($.jPlayer.event.pause, function () {
+            update_progress();
+            cover.html('<span class="pb_btn_play" action="play"></span>');
+            clickInit();
+            cover.attr('action', 'play');
+        });
+        function clickInit() {
+            cover.find('>span').bind('mousedown touchstart', function () {
+                $(this).addClass('btn_down');
+            }).bind('mouseup mouseout touchend', function () {
+                $(this).removeClass('btn_down');
+            });
+        }
+        cover.click(function (event) {
+            var target = $(event.target);
+            switch (target.attr('action')) {
+                case 'play' :
+                    jp.jPlayer("play");
+                    break;
+                case 'practice' :
+                    location.href = "stage_start.php?id=14891";
+                    break;
+                case 'pause' :
+                    jp.jPlayer('pause');
+                    break;
+                default :
+                    break;
+            }
+        });
+    });
+    function update_progress() {
+        var progress = parseInt($("#pb_player").data("jPlayer").status.currentTime);
+        $.ajax({
+            type: 'POST',
+            async: true,
+            cache: false,
+            url: "ajax/set_progress.php?id=14891&progress=" + progress,
+            dataType: 'JSON'
+        }).done(function (res) {
+            if (res.errcode == 0) {
+                playTask(0, res.data.former_tasks, res.data.after_tasks);
+            }
+        });
+    }
+</script>
+
+</body>
+</html>cript>
+
+</body>
+</html>

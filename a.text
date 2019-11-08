@@ -1,0 +1,1573 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<script type="text/javascript" src="/min/12ArWF.js?t=1562035932"></script>
+	<script type="text/javascript" src="/min/SFI1f-6BWrt-2eY9p-10BBaQ-TQyDA-v8kzH-uf7HB-113KmT-jDuuT-16SkAx.js?t=1497348816"></script>
+	<link href="/min/9Gkmx-rq1yM.css?t=1535969900" rel="stylesheet" type="text/css" />
+	<link href="/min/XgRMy-TiCyf-cGzT4-18jDan-vgWch-vS6dz-pUDHb.css?t=1558924134" rel="stylesheet" type="text/css" />
+	<link href="/min/crFms-mfd7J.css?t=1479458562" rel="stylesheet" type="text/css" />
+	<meta name="format-detection" content="telephone=no" />
+	<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>交变电流-乐乐课堂</title>
+	<meta name="applicable-device" content="pc" />
+	<script>
+		var _hmt = _hmt || [];
+		(function() {
+			var hm = document.createElement("script");
+			hm.src = "//hm.baidu.com/hm.js?8296a32ce52c7db4820be505c8738193";
+			var s = document.getElementsByTagName("script")[0]; 
+			s.parentNode.insertBefore(hm, s);
+		})();
+	</script>
+
+</head>
+<body>
+	<div class="global_canvas" style="background-image:url(/dat/cr/canvas/default3.jpg)"></div>
+	<script>
+		var width=window.screen.availWidth;
+		var height=window.screen.availHeight;
+		if(typeof window.orientation=='number'){
+			if(window.orientation==0||window.orientation==180){
+			}else {
+				height=window.screen.availWidth;
+				width=window.screen.availHeight;
+			}
+		}
+		if(width> 1.77 * height){
+			$(".global_canvas").css("background-size", width + "px");
+		}else{
+			$(".global_canvas").css("background-size", "auto " + height + "px");
+		}
+	</script>
+<div class="wrapper clearfix">
+    <div class="wrapper_left">
+        <a class="return_button" href="categories.php"></a>
+<div class="side_bar">
+	<div class="side_bar_wrapper">
+        <a class="sb_item sb_ph lele_btn" href='my_ph.php'>做作业</a>
+		<a class="sb_item sb_report lele_btn" href='http://www.leleketang.com/login/login.php'>学习报告</a>
+		<a class="sb_item sb_error lele_btn" href='errors.php'>错题本</a>
+		<a class="sb_item sb_mall lele_btn" href='ma.php'>商城</a>
+		<a class="sb_item sb_message lele_btn" href='m.php'>信箱</a>
+		<a class="sb_item sb_home lele_btn" href='h.php'>我的成就</a>
+		<a class="sb_item sb_qr_code lele_btn"><span></span>扫码下载</a>
+	</div>
+	<div class="qr_code ellipsis">
+		<div class="qr_code_arrow"></div>
+		<div class="qr_code_img">手机版天天练	</div>
+	</div>
+</div>		<script type="text/javascript">
+			$(document).bind('mouseover touchstart', function (event) {
+				var $target = $(event.target);
+				if ($target.hasClass('lele_btn')) {
+					$target.addClass('hover');
+				}
+			}).bind('mouseout touchend', function (event) {
+				var $target = $(event.target);
+				if ($target.hasClass('lele_btn')) {
+					$target.removeClass('hover');
+				}
+			});
+			$(".sb_qr_code").bind('mouseover touchstart', function () {
+				$(".qr_code").show();
+			}).bind('mouseout touchend', function () {
+				$(".qr_code").hide();
+			});
+		</script>
+		    </div>
+    <div class="wrapper_center" style="background: #eee;border-top: 2px solid #4fd768;margin-bottom: 200px">
+        <div class="stages clearfix" id="stages" data-passed="0" data-clover="0">
+	<div class="knowledge_name">交变电流</div>
+	<div class="knowledge_gets">
+		<div class="circle stage_gets_star" data-percent="0">
+			<div class="pie_left"><div class="left"></div></div>
+			<div class="pie_right"><div class="right"></div></div>
+			<div class="mask"><span class="circle_icon"></span></div>
+		</div>
+		<div class="knowledge_gets_b">
+			<span class="user_num">0</span><span class="sep">/</span>87个
+		</div>
+		<div class="circle stage_gets_task" data-percent="0">
+			<div class="pie_left"><div class="left"></div></div>
+			<div class="pie_right"><div class="right"></div></div>
+			<div class="mask"><span class="circle_icon"></span></div>
+		</div>
+		<div class="knowledge_gets_d">
+			<span class="user_num">0</span><span class="sep">/</span>28个
+		</div>
+		<div class="knowledge_gets_e">
+			答题数
+			<div>0</div>
+		</div>
+	</div>
+	<a class="kn_one  " data-stage_mine="1" data-stage_id="14905" data-stage_valid="1" data-stage_type="1" data-no="1" data-is_vip="" href="stage.php?id=14905">
+		<div class="kn_o_name ellipsis" title="交流电和直流电">1. 交流电和直流电</div>
+		<div style="position:relative;">
+			<div class="clearfix">
+				<div class="kn_o_star star_0" id='' data-from='-1' data-to='-1'><span id='kn_o_star11' style='display:none'><div></div></span><span id='kn_o_star21' style='display:none'><div></div></span><span id='kn_o_star31' style='display:none'><div></div></span></div>
+				<div class="kn_o_more"></div>
+			</div>
+			<div class="kn_o_tip_p"></div>
+			<div class="kn_o_type_icon   pass"></div>
+		</div>
+		<div class="kn_o_tip">
+			
+			<div class="level_glory" >
+				<div class="level_tip">关卡成就</div>
+				<div class="glorys clearfix">
+					<div class="glory1" >
+						<div class="glory1_a">战神无双</div>
+						<div class="glory1_b glory1_b_0"></div>
+						<div class="glory1_c">完成额外目标可得</div>
+					</div>
+					<div class="glory2" >
+						<div class="glory2_a">忍者无敌</div>
+						<div class="glory2_b glory2_b_0"></div>
+						<div class="glory2_c">通关三次获得</div>
+					</div>
+				</div>
+			</div>
+			<div class="extra_target">
+				<div class="level_tip">额外目标</div>
+				<div class="targets">
+					<div class="target_1">
+						<div class="target_1_todo "></div>
+						<div class="target_1_text">看完知识点视频</div>
+						<div class="target_1_reward experiences">+1250</div>
+					</div>
+					<div class="target_1">
+						<div class="target_1_todo "></div>
+						<div class="target_1_text">连续答对2道题</div>
+						<div class="target_1_reward gems">+2</div>
+					</div>
+					<div class="target_1">
+						<div class="target_1_todo "></div>
+						<div class="target_1_text">210秒内答对3道题</div>
+						<div class="target_1_reward coins">+1000</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</a>
+	<a class="kn_one kn_one_lock  " data-stage_mine="1" data-stage_id="14906" data-stage_valid="1" data-stage_type="1" data-no="2" data-is_vip="" href="javascript:;">
+		<div class="kn_o_name ellipsis" title="正弦交流电的产生方式">2. 正弦交流电的产生方式</div>
+		<div style="position:relative;">
+			<div class="clearfix">
+				<div class="kn_o_star star_0" id='' data-from='-1' data-to='-1'><span id='kn_o_star12' style='display:none'><div></div></span><span id='kn_o_star22' style='display:none'><div></div></span><span id='kn_o_star32' style='display:none'><div></div></span></div>
+				<div class="kn_o_lock"></div><div class="kn_o_more" style="display:none;"></div>
+			</div>
+			<div class="kn_o_tip_p"></div>
+			<div class="kn_o_type_icon   "></div>
+		</div>
+		<div class="kn_o_tip">
+			
+			<div class="level_glory" >
+				<div class="level_tip">关卡成就</div>
+				<div class="glorys clearfix">
+					<div class="glory1" >
+						<div class="glory1_a">战神无双</div>
+						<div class="glory1_b glory1_b_0"></div>
+						<div class="glory1_c">完成额外目标可得</div>
+					</div>
+					<div class="glory2" >
+						<div class="glory2_a">忍者无敌</div>
+						<div class="glory2_b glory2_b_0"></div>
+						<div class="glory2_c">通关三次获得</div>
+					</div>
+				</div>
+			</div>
+			<div class="extra_target">
+				<div class="level_tip">额外目标</div>
+				<div class="targets">
+					<div class="target_1">
+						<div class="target_1_todo "></div>
+						<div class="target_1_text">看完知识点视频</div>
+						<div class="target_1_reward experiences">+1250</div>
+					</div>
+					<div class="target_1">
+						<div class="target_1_todo "></div>
+						<div class="target_1_text">连续答对2道题</div>
+						<div class="target_1_reward gems">+2</div>
+					</div>
+					<div class="target_1">
+						<div class="target_1_todo "></div>
+						<div class="target_1_text">210秒内答对3道题</div>
+						<div class="target_1_reward coins">+1000</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</a>
+	<a class="kn_one kn_one_lock  " data-stage_mine="1" data-stage_id="14907" data-stage_valid="1" data-stage_type="1" data-no="3" data-is_vip="" href="javascript:;">
+		<div class="kn_o_name ellipsis" title="中性面和与中性面垂直的平面">3. 中性面和与中性面垂直的平面</div>
+		<div style="position:relative;">
+			<div class="clearfix">
+				<div class="kn_o_star star_0" id='' data-from='-1' data-to='-1'><span id='kn_o_star13' style='display:none'><div></div></span><span id='kn_o_star23' style='display:none'><div></div></span><span id='kn_o_star33' style='display:none'><div></div></span></div>
+				<div class="kn_o_lock"></div><div class="kn_o_more" style="display:none;"></div>
+			</div>
+			<div class="kn_o_tip_p"></div>
+			<div class="kn_o_type_icon   "></div>
+		</div>
+		<div class="kn_o_tip">
+			
+			<div class="level_glory" >
+				<div class="level_tip">关卡成就</div>
+				<div class="glorys clearfix">
+					<div class="glory1" >
+						<div class="glory1_a">战神无双</div>
+						<div class="glory1_b glory1_b_0"></div>
+						<div class="glory1_c">完成额外目标可得</div>
+					</div>
+					<div class="glory2" >
+						<div class="glory2_a">忍者无敌</div>
+						<div class="glory2_b glory2_b_0"></div>
+						<div class="glory2_c">通关三次获得</div>
+					</div>
+				</div>
+			</div>
+			<div class="extra_target">
+				<div class="level_tip">额外目标</div>
+				<div class="targets">
+					<div class="target_1">
+						<div class="target_1_todo "></div>
+						<div class="target_1_text">看完知识点视频</div>
+						<div class="target_1_reward experiences">+1250</div>
+					</div>
+					<div class="target_1">
+						<div class="target_1_todo "></div>
+						<div class="target_1_text">连续答对2道题</div>
+						<div class="target_1_reward gems">+2</div>
+					</div>
+					<div class="target_1">
+						<div class="target_1_todo "></div>
+						<div class="target_1_text">210秒内答对3道题</div>
+						<div class="target_1_reward coins">+1000</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</a>
+	<a class="kn_one kn_one_lock  " data-stage_mine="1" data-stage_id="14908" data-stage_valid="1" data-stage_type="1" data-no="4" data-is_vip="1" href="javascript:;">
+		<div class="kn_o_name ellipsis" title="任意时刻的感应电动势">4. 任意时刻的感应电动势</div>
+		<div style="position:relative;">
+			<div class="clearfix">
+				<div class="kn_o_star star_0" id='' data-from='-1' data-to='-1'><span id='kn_o_star14' style='display:none'><div></div></span><span id='kn_o_star24' style='display:none'><div></div></span><span id='kn_o_star34' style='display:none'><div></div></span></div>
+				<div class="kn_o_lock"></div><div class="kn_o_more" style="display:none;"></div>
+			</div>
+			<div class="kn_o_tip_p"></div>
+			<div class="kn_o_type_icon   "></div>
+		</div>
+		<div class="kn_o_tip">
+			
+			<div class="level_glory" >
+				<div class="level_tip">关卡成就</div>
+				<div class="glorys clearfix">
+					<div class="glory1" >
+						<div class="glory1_a">战神无双</div>
+						<div class="glory1_b glory1_b_0"></div>
+						<div class="glory1_c">完成额外目标可得</div>
+					</div>
+					<div class="glory2" >
+						<div class="glory2_a">忍者无敌</div>
+						<div class="glory2_b glory2_b_0"></div>
+						<div class="glory2_c">通关三次获得</div>
+					</div>
+				</div>
+			</div>
+			<div class="extra_target">
+				<div class="level_tip">额外目标</div>
+				<div class="targets">
+					<div class="target_1">
+						<div class="target_1_todo "></div>
+						<div class="target_1_text">看完知识点视频</div>
+						<div class="target_1_reward experiences">+1250</div>
+					</div>
+					<div class="target_1">
+						<div class="target_1_todo "></div>
+						<div class="target_1_text">连续答对2道题</div>
+						<div class="target_1_reward gems">+2</div>
+					</div>
+					<div class="target_1">
+						<div class="target_1_todo "></div>
+						<div class="target_1_text">210秒内答对3道题</div>
+						<div class="target_1_reward coins">+1000</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</a>
+	<a class="kn_one kn_one_lock  " data-stage_mine="1" data-stage_id="14909" data-stage_valid="1" data-stage_type="1" data-no="5" data-is_vip="1" href="javascript:;">
+		<div class="kn_o_name ellipsis" title="交流电的周期、频率和峰值">5. 交流电的周期、频率和峰值</div>
+		<div style="position:relative;">
+			<div class="clearfix">
+				<div class="kn_o_star star_0" id='' data-from='-1' data-to='-1'><span id='kn_o_star15' style='display:none'><div></div></span><span id='kn_o_star25' style='display:none'><div></div></span><span id='kn_o_star35' style='display:none'><div></div></span></div>
+				<div class="kn_o_lock"></div><div class="kn_o_more" style="display:none;"></div>
+			</div>
+			<div class="kn_o_tip_p"></div>
+			<div class="kn_o_type_icon   "></div>
+		</div>
+		<div class="kn_o_tip">
+			
+			<div class="level_glory" >
+				<div class="level_tip">关卡成就</div>
+				<div class="glorys clearfix">
+					<div class="glory1" >
+						<div class="glory1_a">战神无双</div>
+						<div class="glory1_b glory1_b_0"></div>
+						<div class="glory1_c">完成额外目标可得</div>
+					</div>
+					<div class="glory2" >
+						<div class="glory2_a">忍者无敌</div>
+						<div class="glory2_b glory2_b_0"></div>
+						<div class="glory2_c">通关三次获得</div>
+					</div>
+				</div>
+			</div>
+			<div class="extra_target">
+				<div class="level_tip">额外目标</div>
+				<div class="targets">
+					<div class="target_1">
+						<div class="target_1_todo "></div>
+						<div class="target_1_text">看完知识点视频</div>
+						<div class="target_1_reward experiences">+1250</div>
+					</div>
+					<div class="target_1">
+						<div class="target_1_todo "></div>
+						<div class="target_1_text">连续答对2道题</div>
+						<div class="target_1_reward gems">+2</div>
+					</div>
+					<div class="target_1">
+						<div class="target_1_todo "></div>
+						<div class="target_1_text">210秒内答对3道题</div>
+						<div class="target_1_reward coins">+1000</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</a>
+	<a class="kn_one kn_one_lock  " data-stage_mine="1" data-stage_id="14910" data-stage_valid="1" data-stage_type="3" data-no="6" data-is_vip="1" href="javascript:;">
+		<div class="kn_o_name ellipsis" title="交流电的平均值">6. 交流电的平均值</div>
+		<div style="position:relative;">
+			<div class="clearfix">
+				<div class="kn_o_clover"><span></span>0/1</div>
+				<div class="kn_o_lock"></div><div class="kn_o_more" style="display:none;"></div>
+			</div>
+			<div class="kn_o_tip_p"></div>
+			<div class="kn_o_type_icon  kn_o_type_hide "></div>
+		</div>
+		<div class="kn_o_tip">
+			
+			<div class="level_glory" >
+				<div class="level_tip">关卡成就</div>
+				<div class="glorys clearfix">
+					<div class="glory1" >
+						<div class="glory1_a">战神无双</div>
+						<div class="glory1_b glory1_b_0"></div>
+						<div class="glory1_c">完成额外目标可得</div>
+					</div>
+					<div class="glory2" >
+						<div class="glory2_a">忍者无敌</div>
+						<div class="glory2_b glory2_b_0"></div>
+						<div class="glory2_c">通关三次获得</div>
+					</div>
+				</div>
+			</div>
+			<div class="extra_target">
+				<div class="level_tip">额外目标</div>
+				<div class="targets">
+					<div class="target_1">
+						<div class="target_1_todo "></div>
+						<div class="target_1_text">看完知识点视频</div>
+						<div class="target_1_reward experiences">+1250</div>
+					</div>
+					<div class="target_1">
+						<div class="target_1_todo "></div>
+						<div class="target_1_text">连续答对2道题</div>
+						<div class="target_1_reward gems">+2</div>
+					</div>
+					<div class="target_1">
+						<div class="target_1_todo "></div>
+						<div class="target_1_text">210秒内答对3道题</div>
+						<div class="target_1_reward coins">+1000</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</a>
+	<a class="kn_one kn_one_lock  " data-stage_mine="1" data-stage_id="14911" data-stage_valid="1" data-stage_type="1" data-no="7" data-is_vip="1" href="javascript:;">
+		<div class="kn_o_name ellipsis" title="交流电有效值的含义">7. 交流电有效值的含义</div>
+		<div style="position:relative;">
+			<div class="clearfix">
+				<div class="kn_o_star star_0" id='' data-from='-1' data-to='-1'><span id='kn_o_star17' style='display:none'><div></div></span><span id='kn_o_star27' style='display:none'><div></div></span><span id='kn_o_star37' style='display:none'><div></div></span></div>
+				<div class="kn_o_lock"></div><div class="kn_o_more" style="display:none;"></div>
+			</div>
+			<div class="kn_o_tip_p"></div>
+			<div class="kn_o_type_icon   "></div>
+		</div>
+		<div class="kn_o_tip">
+			
+			<div class="level_glory" >
+				<div class="level_tip">关卡成就</div>
+				<div class="glorys clearfix">
+					<div class="glory1" >
+						<div class="glory1_a">战神无双</div>
+						<div class="glory1_b glory1_b_0"></div>
+						<div class="glory1_c">完成额外目标可得</div>
+					</div>
+					<div class="glory2" >
+						<div class="glory2_a">忍者无敌</div>
+						<div class="glory2_b glory2_b_0"></div>
+						<div class="glory2_c">通关三次获得</div>
+					</div>
+				</div>
+			</div>
+			<div class="extra_target">
+				<div class="level_tip">额外目标</div>
+				<div class="targets">
+					<div class="target_1">
+						<div class="target_1_todo "></div>
+						<div class="target_1_text">看完知识点视频</div>
+						<div class="target_1_reward experiences">+1250</div>
+					</div>
+					<div class="target_1">
+						<div class="target_1_todo "></div>
+						<div class="target_1_text">连续答对2道题</div>
+						<div class="target_1_reward gems">+2</div>
+					</div>
+					<div class="target_1">
+						<div class="target_1_todo "></div>
+						<div class="target_1_text">210秒内答对3道题</div>
+						<div class="target_1_reward coins">+1000</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</a>
+	<a class="kn_one kn_one_lock  " data-stage_mine="1" data-stage_id="14912" data-stage_valid="1" data-stage_type="1" data-no="8" data-is_vip="1" href="javascript:;">
+		<div class="kn_o_name ellipsis" title="正弦交流电的有效值">8. 正弦交流电的有效值</div>
+		<div style="position:relative;">
+			<div class="clearfix">
+				<div class="kn_o_star star_0" id='' data-from='-1' data-to='-1'><span id='kn_o_star18' style='display:none'><div></div></span><span id='kn_o_star28' style='display:none'><div></div></span><span id='kn_o_star38' style='display:none'><div></div></span></div>
+				<div class="kn_o_lock"></div><div class="kn_o_more" style="display:none;"></div>
+			</div>
+			<div class="kn_o_tip_p"></div>
+			<div class="kn_o_type_icon   "></div>
+		</div>
+		<div class="kn_o_tip">
+			
+			<div class="level_glory" >
+				<div class="level_tip">关卡成就</div>
+				<div class="glorys clearfix">
+					<div class="glory1" >
+						<div class="glory1_a">战神无双</div>
+						<div class="glory1_b glory1_b_0"></div>
+						<div class="glory1_c">完成额外目标可得</div>
+					</div>
+					<div class="glory2" >
+						<div class="glory2_a">忍者无敌</div>
+						<div class="glory2_b glory2_b_0"></div>
+						<div class="glory2_c">通关三次获得</div>
+					</div>
+				</div>
+			</div>
+			<div class="extra_target">
+				<div class="level_tip">额外目标</div>
+				<div class="targets">
+					<div class="target_1">
+						<div class="target_1_todo "></div>
+						<div class="target_1_text">看完知识点视频</div>
+						<div class="target_1_reward experiences">+1250</div>
+					</div>
+					<div class="target_1">
+						<div class="target_1_todo "></div>
+						<div class="target_1_text">连续答对2道题</div>
+						<div class="target_1_reward gems">+2</div>
+					</div>
+					<div class="target_1">
+						<div class="target_1_todo "></div>
+						<div class="target_1_text">210秒内答对3道题</div>
+						<div class="target_1_reward coins">+1000</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</a>
+	<a class="kn_one kn_one_lock  " data-stage_mine="1" data-stage_id="14913" data-stage_valid="1" data-stage_type="3" data-no="9" data-is_vip="1" href="javascript:;">
+		<div class="kn_o_name ellipsis" title="正弦交流电有效值的推导">9. 正弦交流电有效值的推导</div>
+		<div style="position:relative;">
+			<div class="clearfix">
+				<div class="kn_o_clover"><span></span>0/1</div>
+				<div class="kn_o_lock"></div><div class="kn_o_more" style="display:none;"></div>
+			</div>
+			<div class="kn_o_tip_p"></div>
+			<div class="kn_o_type_icon  kn_o_type_hide "></div>
+		</div>
+		<div class="kn_o_tip">
+			
+			<div class="level_glory" >
+				<div class="level_tip">关卡成就</div>
+				<div class="glorys clearfix">
+					<div class="glory1" >
+						<div class="glory1_a">战神无双</div>
+						<div class="glory1_b glory1_b_0"></div>
+						<div class="glory1_c">完成额外目标可得</div>
+					</div>
+					<div class="glory2" >
+						<div class="glory2_a">忍者无敌</div>
+						<div class="glory2_b glory2_b_0"></div>
+						<div class="glory2_c">通关三次获得</div>
+					</div>
+				</div>
+			</div>
+			<div class="extra_target">
+				<div class="level_tip">额外目标</div>
+				<div class="targets">
+					<div class="target_1">
+						<div class="target_1_todo "></div>
+						<div class="target_1_text">看完知识点视频</div>
+						<div class="target_1_reward experiences">+1250</div>
+					</div>
+					<div class="target_1">
+						<div class="target_1_todo "></div>
+						<div class="target_1_text">连续答对2道题</div>
+						<div class="target_1_reward gems">+2</div>
+					</div>
+					<div class="target_1">
+						<div class="target_1_todo "></div>
+						<div class="target_1_text">210秒内答对3道题</div>
+						<div class="target_1_reward coins">+1000</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</a>
+	<a class="kn_one kn_one_lock  " data-stage_mine="1" data-stage_id="14914" data-stage_valid="1" data-stage_type="1" data-no="10" data-is_vip="1" href="javascript:;">
+		<div class="kn_o_name ellipsis" title="交流发电机做电源时的电压、电流和电量">10. 交流发电机做电源时的电压、电流和电量</div>
+		<div style="position:relative;">
+			<div class="clearfix">
+				<div class="kn_o_star star_0" id='' data-from='-1' data-to='-1'><span id='kn_o_star110' style='display:none'><div></div></span><span id='kn_o_star210' style='display:none'><div></div></span><span id='kn_o_star310' style='display:none'><div></div></span></div>
+				<div class="kn_o_lock"></div><div class="kn_o_more" style="display:none;"></div>
+			</div>
+			<div class="kn_o_tip_p"></div>
+			<div class="kn_o_type_icon   "></div>
+		</div>
+		<div class="kn_o_tip">
+			
+			<div class="level_glory" >
+				<div class="level_tip">关卡成就</div>
+				<div class="glorys clearfix">
+					<div class="glory1" >
+						<div class="glory1_a">战神无双</div>
+						<div class="glory1_b glory1_b_0"></div>
+						<div class="glory1_c">完成额外目标可得</div>
+					</div>
+					<div class="glory2" >
+						<div class="glory2_a">忍者无敌</div>
+						<div class="glory2_b glory2_b_0"></div>
+						<div class="glory2_c">通关三次获得</div>
+					</div>
+				</div>
+			</div>
+			<div class="extra_target">
+				<div class="level_tip">额外目标</div>
+				<div class="targets">
+					<div class="target_1">
+						<div class="target_1_todo "></div>
+						<div class="target_1_text">看完知识点视频</div>
+						<div class="target_1_reward experiences">+1250</div>
+					</div>
+					<div class="target_1">
+						<div class="target_1_todo "></div>
+						<div class="target_1_text">连续答对2道题</div>
+						<div class="target_1_reward gems">+2</div>
+					</div>
+					<div class="target_1">
+						<div class="target_1_todo "></div>
+						<div class="target_1_text">210秒内答对3道题</div>
+						<div class="target_1_reward coins">+1000</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</a>
+	<a class="kn_one kn_one_lock  " data-stage_mine="1" data-stage_id="14915" data-stage_valid="1" data-stage_type="1" data-no="11" data-is_vip="1" href="javascript:;">
+		<div class="kn_o_name ellipsis" title="交流发电机做电源时的电功">11. 交流发电机做电源时的电功</div>
+		<div style="position:relative;">
+			<div class="clearfix">
+				<div class="kn_o_star star_0" id='' data-from='-1' data-to='-1'><span id='kn_o_star111' style='display:none'><div></div></span><span id='kn_o_star211' style='display:none'><div></div></span><span id='kn_o_star311' style='display:none'><div></div></span></div>
+				<div class="kn_o_lock"></div><div class="kn_o_more" style="display:none;"></div>
+			</div>
+			<div class="kn_o_tip_p"></div>
+			<div class="kn_o_type_icon   "></div>
+		</div>
+		<div class="kn_o_tip">
+			
+			<div class="level_glory" >
+				<div class="level_tip">关卡成就</div>
+				<div class="glorys clearfix">
+					<div class="glory1" >
+						<div class="glory1_a">战神无双</div>
+						<div class="glory1_b glory1_b_0"></div>
+						<div class="glory1_c">完成额外目标可得</div>
+					</div>
+					<div class="glory2" >
+						<div class="glory2_a">忍者无敌</div>
+						<div class="glory2_b glory2_b_0"></div>
+						<div class="glory2_c">通关三次获得</div>
+					</div>
+				</div>
+			</div>
+			<div class="extra_target">
+				<div class="level_tip">额外目标</div>
+				<div class="targets">
+					<div class="target_1">
+						<div class="target_1_todo "></div>
+						<div class="target_1_text">看完知识点视频</div>
+						<div class="target_1_reward experiences">+1250</div>
+					</div>
+					<div class="target_1">
+						<div class="target_1_todo "></div>
+						<div class="target_1_text">连续答对2道题</div>
+						<div class="target_1_reward gems">+2</div>
+					</div>
+					<div class="target_1">
+						<div class="target_1_todo "></div>
+						<div class="target_1_text">210秒内答对3道题</div>
+						<div class="target_1_reward coins">+1000</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</a>
+	<a class="kn_one kn_one_lock  " data-stage_mine="1" data-stage_id="14920" data-stage_valid="1" data-stage_type="1" data-no="12" data-is_vip="1" href="javascript:;">
+		<div class="kn_o_name ellipsis" title="电感对直流电和交流电的不同作用">12. 电感对直流电和交流电的不同作用</div>
+		<div style="position:relative;">
+			<div class="clearfix">
+				<div class="kn_o_star star_0" id='' data-from='-1' data-to='-1'><span id='kn_o_star112' style='display:none'><div></div></span><span id='kn_o_star212' style='display:none'><div></div></span><span id='kn_o_star312' style='display:none'><div></div></span></div>
+				<div class="kn_o_lock"></div><div class="kn_o_more" style="display:none;"></div>
+			</div>
+			<div class="kn_o_tip_p"></div>
+			<div class="kn_o_type_icon   "></div>
+		</div>
+		<div class="kn_o_tip">
+			
+			<div class="level_glory" >
+				<div class="level_tip">关卡成就</div>
+				<div class="glorys clearfix">
+					<div class="glory1" >
+						<div class="glory1_a">战神无双</div>
+						<div class="glory1_b glory1_b_0"></div>
+						<div class="glory1_c">完成额外目标可得</div>
+					</div>
+					<div class="glory2" >
+						<div class="glory2_a">忍者无敌</div>
+						<div class="glory2_b glory2_b_0"></div>
+						<div class="glory2_c">通关三次获得</div>
+					</div>
+				</div>
+			</div>
+			<div class="extra_target">
+				<div class="level_tip">额外目标</div>
+				<div class="targets">
+					<div class="target_1">
+						<div class="target_1_todo "></div>
+						<div class="target_1_text">看完知识点视频</div>
+						<div class="target_1_reward experiences">+1250</div>
+					</div>
+					<div class="target_1">
+						<div class="target_1_todo "></div>
+						<div class="target_1_text">连续答对2道题</div>
+						<div class="target_1_reward gems">+2</div>
+					</div>
+					<div class="target_1">
+						<div class="target_1_todo "></div>
+						<div class="target_1_text">210秒内答对3道题</div>
+						<div class="target_1_reward coins">+1000</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</a>
+	<a class="kn_one kn_one_lock  " data-stage_mine="1" data-stage_id="14921" data-stage_valid="1" data-stage_type="1" data-no="13" data-is_vip="1" href="javascript:;">
+		<div class="kn_o_name ellipsis" title="电感对交流电的阻碍作用大小-感抗">13. 电感对交流电的阻碍作用大小-感抗</div>
+		<div style="position:relative;">
+			<div class="clearfix">
+				<div class="kn_o_star star_0" id='' data-from='-1' data-to='-1'><span id='kn_o_star113' style='display:none'><div></div></span><span id='kn_o_star213' style='display:none'><div></div></span><span id='kn_o_star313' style='display:none'><div></div></span></div>
+				<div class="kn_o_lock"></div><div class="kn_o_more" style="display:none;"></div>
+			</div>
+			<div class="kn_o_tip_p"></div>
+			<div class="kn_o_type_icon   "></div>
+		</div>
+		<div class="kn_o_tip">
+			
+			<div class="level_glory" >
+				<div class="level_tip">关卡成就</div>
+				<div class="glorys clearfix">
+					<div class="glory1" >
+						<div class="glory1_a">战神无双</div>
+						<div class="glory1_b glory1_b_0"></div>
+						<div class="glory1_c">完成额外目标可得</div>
+					</div>
+					<div class="glory2" >
+						<div class="glory2_a">忍者无敌</div>
+						<div class="glory2_b glory2_b_0"></div>
+						<div class="glory2_c">通关三次获得</div>
+					</div>
+				</div>
+			</div>
+			<div class="extra_target">
+				<div class="level_tip">额外目标</div>
+				<div class="targets">
+					<div class="target_1">
+						<div class="target_1_todo "></div>
+						<div class="target_1_text">看完知识点视频</div>
+						<div class="target_1_reward experiences">+1250</div>
+					</div>
+					<div class="target_1">
+						<div class="target_1_todo "></div>
+						<div class="target_1_text">连续答对2道题</div>
+						<div class="target_1_reward gems">+2</div>
+					</div>
+					<div class="target_1">
+						<div class="target_1_todo "></div>
+						<div class="target_1_text">210秒内答对3道题</div>
+						<div class="target_1_reward coins">+1000</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</a>
+	<a class="kn_one kn_one_lock  " data-stage_mine="1" data-stage_id="14922" data-stage_valid="1" data-stage_type="1" data-no="14" data-is_vip="1" href="javascript:;">
+		<div class="kn_o_name ellipsis" title="扼流圈">14. 扼流圈</div>
+		<div style="position:relative;">
+			<div class="clearfix">
+				<div class="kn_o_star star_0" id='' data-from='-1' data-to='-1'><span id='kn_o_star114' style='display:none'><div></div></span><span id='kn_o_star214' style='display:none'><div></div></span><span id='kn_o_star314' style='display:none'><div></div></span></div>
+				<div class="kn_o_lock"></div><div class="kn_o_more" style="display:none;"></div>
+			</div>
+			<div class="kn_o_tip_p"></div>
+			<div class="kn_o_type_icon   "></div>
+		</div>
+		<div class="kn_o_tip">
+			
+			<div class="level_glory" >
+				<div class="level_tip">关卡成就</div>
+				<div class="glorys clearfix">
+					<div class="glory1" >
+						<div class="glory1_a">战神无双</div>
+						<div class="glory1_b glory1_b_0"></div>
+						<div class="glory1_c">完成额外目标可得</div>
+					</div>
+					<div class="glory2" >
+						<div class="glory2_a">忍者无敌</div>
+						<div class="glory2_b glory2_b_0"></div>
+						<div class="glory2_c">通关三次获得</div>
+					</div>
+				</div>
+			</div>
+			<div class="extra_target">
+				<div class="level_tip">额外目标</div>
+				<div class="targets">
+					<div class="target_1">
+						<div class="target_1_todo "></div>
+						<div class="target_1_text">看完知识点视频</div>
+						<div class="target_1_reward experiences">+1250</div>
+					</div>
+					<div class="target_1">
+						<div class="target_1_todo "></div>
+						<div class="target_1_text">连续答对2道题</div>
+						<div class="target_1_reward gems">+2</div>
+					</div>
+					<div class="target_1">
+						<div class="target_1_todo "></div>
+						<div class="target_1_text">210秒内答对3道题</div>
+						<div class="target_1_reward coins">+1000</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</a>
+	<a class="kn_one kn_one_lock  " data-stage_mine="1" data-stage_id="14923" data-stage_valid="1" data-stage_type="1" data-no="15" data-is_vip="1" href="javascript:;">
+		<div class="kn_o_name ellipsis" title="电容对直流电和交流电的不同作用">15. 电容对直流电和交流电的不同作用</div>
+		<div style="position:relative;">
+			<div class="clearfix">
+				<div class="kn_o_star star_0" id='' data-from='-1' data-to='-1'><span id='kn_o_star115' style='display:none'><div></div></span><span id='kn_o_star215' style='display:none'><div></div></span><span id='kn_o_star315' style='display:none'><div></div></span></div>
+				<div class="kn_o_lock"></div><div class="kn_o_more" style="display:none;"></div>
+			</div>
+			<div class="kn_o_tip_p"></div>
+			<div class="kn_o_type_icon   "></div>
+		</div>
+		<div class="kn_o_tip">
+			
+			<div class="level_glory" >
+				<div class="level_tip">关卡成就</div>
+				<div class="glorys clearfix">
+					<div class="glory1" >
+						<div class="glory1_a">战神无双</div>
+						<div class="glory1_b glory1_b_0"></div>
+						<div class="glory1_c">完成额外目标可得</div>
+					</div>
+					<div class="glory2" >
+						<div class="glory2_a">忍者无敌</div>
+						<div class="glory2_b glory2_b_0"></div>
+						<div class="glory2_c">通关三次获得</div>
+					</div>
+				</div>
+			</div>
+			<div class="extra_target">
+				<div class="level_tip">额外目标</div>
+				<div class="targets">
+					<div class="target_1">
+						<div class="target_1_todo "></div>
+						<div class="target_1_text">看完知识点视频</div>
+						<div class="target_1_reward experiences">+1250</div>
+					</div>
+					<div class="target_1">
+						<div class="target_1_todo "></div>
+						<div class="target_1_text">连续答对2道题</div>
+						<div class="target_1_reward gems">+2</div>
+					</div>
+					<div class="target_1">
+						<div class="target_1_todo "></div>
+						<div class="target_1_text">210秒内答对3道题</div>
+						<div class="target_1_reward coins">+1000</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</a>
+	<a class="kn_one kn_one_lock  " data-stage_mine="1" data-stage_id="14924" data-stage_valid="1" data-stage_type="1" data-no="16" data-is_vip="1" href="javascript:;">
+		<div class="kn_o_name ellipsis" title="电容对交流电的阻碍大小-容抗">16. 电容对交流电的阻碍大小-容抗</div>
+		<div style="position:relative;">
+			<div class="clearfix">
+				<div class="kn_o_star star_0" id='' data-from='-1' data-to='-1'><span id='kn_o_star116' style='display:none'><div></div></span><span id='kn_o_star216' style='display:none'><div></div></span><span id='kn_o_star316' style='display:none'><div></div></span></div>
+				<div class="kn_o_lock"></div><div class="kn_o_more" style="display:none;"></div>
+			</div>
+			<div class="kn_o_tip_p"></div>
+			<div class="kn_o_type_icon   "></div>
+		</div>
+		<div class="kn_o_tip">
+			
+			<div class="level_glory" >
+				<div class="level_tip">关卡成就</div>
+				<div class="glorys clearfix">
+					<div class="glory1" >
+						<div class="glory1_a">战神无双</div>
+						<div class="glory1_b glory1_b_0"></div>
+						<div class="glory1_c">完成额外目标可得</div>
+					</div>
+					<div class="glory2" >
+						<div class="glory2_a">忍者无敌</div>
+						<div class="glory2_b glory2_b_0"></div>
+						<div class="glory2_c">通关三次获得</div>
+					</div>
+				</div>
+			</div>
+			<div class="extra_target">
+				<div class="level_tip">额外目标</div>
+				<div class="targets">
+					<div class="target_1">
+						<div class="target_1_todo "></div>
+						<div class="target_1_text">看完知识点视频</div>
+						<div class="target_1_reward experiences">+1250</div>
+					</div>
+					<div class="target_1">
+						<div class="target_1_todo "></div>
+						<div class="target_1_text">连续答对2道题</div>
+						<div class="target_1_reward gems">+2</div>
+					</div>
+					<div class="target_1">
+						<div class="target_1_todo "></div>
+						<div class="target_1_text">210秒内答对3道题</div>
+						<div class="target_1_reward coins">+1000</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</a>
+	<a class="kn_one kn_one_lock  " data-stage_mine="1" data-stage_id="14925" data-stage_valid="1" data-stage_type="1" data-no="17" data-is_vip="1" href="javascript:;">
+		<div class="kn_o_name ellipsis" title="电感和电容中储存的能量">17. 电感和电容中储存的能量</div>
+		<div style="position:relative;">
+			<div class="clearfix">
+				<div class="kn_o_star star_0" id='' data-from='-1' data-to='-1'><span id='kn_o_star117' style='display:none'><div></div></span><span id='kn_o_star217' style='display:none'><div></div></span><span id='kn_o_star317' style='display:none'><div></div></span></div>
+				<div class="kn_o_lock"></div><div class="kn_o_more" style="display:none;"></div>
+			</div>
+			<div class="kn_o_tip_p"></div>
+			<div class="kn_o_type_icon   "></div>
+		</div>
+		<div class="kn_o_tip">
+			
+			<div class="level_glory" >
+				<div class="level_tip">关卡成就</div>
+				<div class="glorys clearfix">
+					<div class="glory1" >
+						<div class="glory1_a">战神无双</div>
+						<div class="glory1_b glory1_b_0"></div>
+						<div class="glory1_c">完成额外目标可得</div>
+					</div>
+					<div class="glory2" >
+						<div class="glory2_a">忍者无敌</div>
+						<div class="glory2_b glory2_b_0"></div>
+						<div class="glory2_c">通关三次获得</div>
+					</div>
+				</div>
+			</div>
+			<div class="extra_target">
+				<div class="level_tip">额外目标</div>
+				<div class="targets">
+					<div class="target_1">
+						<div class="target_1_todo "></div>
+						<div class="target_1_text">看完知识点视频</div>
+						<div class="target_1_reward experiences">+1250</div>
+					</div>
+					<div class="target_1">
+						<div class="target_1_todo "></div>
+						<div class="target_1_text">连续答对2道题</div>
+						<div class="target_1_reward gems">+2</div>
+					</div>
+					<div class="target_1">
+						<div class="target_1_todo "></div>
+						<div class="target_1_text">210秒内答对3道题</div>
+						<div class="target_1_reward coins">+1000</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</a>
+	<a class="kn_one kn_one_lock  " data-stage_mine="1" data-stage_id="14926" data-stage_valid="1" data-stage_type="3" data-no="18" data-is_vip="1" href="javascript:;">
+		<div class="kn_o_name ellipsis" title="滤波器">18. 滤波器</div>
+		<div style="position:relative;">
+			<div class="clearfix">
+				<div class="kn_o_clover"><span></span>0/1</div>
+				<div class="kn_o_lock"></div><div class="kn_o_more" style="display:none;"></div>
+			</div>
+			<div class="kn_o_tip_p"></div>
+			<div class="kn_o_type_icon  kn_o_type_hide "></div>
+		</div>
+		<div class="kn_o_tip">
+			
+			<div class="level_glory" >
+				<div class="level_tip">关卡成就</div>
+				<div class="glorys clearfix">
+					<div class="glory1" >
+						<div class="glory1_a">战神无双</div>
+						<div class="glory1_b glory1_b_0"></div>
+						<div class="glory1_c">完成额外目标可得</div>
+					</div>
+					<div class="glory2" >
+						<div class="glory2_a">忍者无敌</div>
+						<div class="glory2_b glory2_b_0"></div>
+						<div class="glory2_c">通关三次获得</div>
+					</div>
+				</div>
+			</div>
+			<div class="extra_target">
+				<div class="level_tip">额外目标</div>
+				<div class="targets">
+					<div class="target_1">
+						<div class="target_1_todo "></div>
+						<div class="target_1_text">看完知识点视频</div>
+						<div class="target_1_reward experiences">+1250</div>
+					</div>
+					<div class="target_1">
+						<div class="target_1_todo "></div>
+						<div class="target_1_text">连续答对2道题</div>
+						<div class="target_1_reward gems">+2</div>
+					</div>
+					<div class="target_1">
+						<div class="target_1_todo "></div>
+						<div class="target_1_text">210秒内答对3道题</div>
+						<div class="target_1_reward coins">+1000</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</a>
+	<a class="kn_one kn_one_lock  " data-stage_mine="1" data-stage_id="14927" data-stage_valid="1" data-stage_type="1" data-no="19" data-is_vip="1" href="javascript:;">
+		<div class="kn_o_name ellipsis" title="变压器的结构">19. 变压器的结构</div>
+		<div style="position:relative;">
+			<div class="clearfix">
+				<div class="kn_o_star star_0" id='' data-from='-1' data-to='-1'><span id='kn_o_star119' style='display:none'><div></div></span><span id='kn_o_star219' style='display:none'><div></div></span><span id='kn_o_star319' style='display:none'><div></div></span></div>
+				<div class="kn_o_lock"></div><div class="kn_o_more" style="display:none;"></div>
+			</div>
+			<div class="kn_o_tip_p"></div>
+			<div class="kn_o_type_icon   "></div>
+		</div>
+		<div class="kn_o_tip">
+			
+			<div class="level_glory" >
+				<div class="level_tip">关卡成就</div>
+				<div class="glorys clearfix">
+					<div class="glory1" >
+						<div class="glory1_a">战神无双</div>
+						<div class="glory1_b glory1_b_0"></div>
+						<div class="glory1_c">完成额外目标可得</div>
+					</div>
+					<div class="glory2" >
+						<div class="glory2_a">忍者无敌</div>
+						<div class="glory2_b glory2_b_0"></div>
+						<div class="glory2_c">通关三次获得</div>
+					</div>
+				</div>
+			</div>
+			<div class="extra_target">
+				<div class="level_tip">额外目标</div>
+				<div class="targets">
+					<div class="target_1">
+						<div class="target_1_todo "></div>
+						<div class="target_1_text">看完知识点视频</div>
+						<div class="target_1_reward experiences">+1250</div>
+					</div>
+					<div class="target_1">
+						<div class="target_1_todo "></div>
+						<div class="target_1_text">连续答对2道题</div>
+						<div class="target_1_reward gems">+2</div>
+					</div>
+					<div class="target_1">
+						<div class="target_1_todo "></div>
+						<div class="target_1_text">210秒内答对3道题</div>
+						<div class="target_1_reward coins">+1000</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</a>
+	<a class="kn_one kn_one_lock  " data-stage_mine="1" data-stage_id="14928" data-stage_valid="1" data-stage_type="1" data-no="20" data-is_vip="1" href="javascript:;">
+		<div class="kn_o_name ellipsis" title="变压器的变压原理">20. 变压器的变压原理</div>
+		<div style="position:relative;">
+			<div class="clearfix">
+				<div class="kn_o_star star_0" id='' data-from='-1' data-to='-1'><span id='kn_o_star120' style='display:none'><div></div></span><span id='kn_o_star220' style='display:none'><div></div></span><span id='kn_o_star320' style='display:none'><div></div></span></div>
+				<div class="kn_o_lock"></div><div class="kn_o_more" style="display:none;"></div>
+			</div>
+			<div class="kn_o_tip_p"></div>
+			<div class="kn_o_type_icon   "></div>
+		</div>
+		<div class="kn_o_tip">
+			
+			<div class="level_glory" >
+				<div class="level_tip">关卡成就</div>
+				<div class="glorys clearfix">
+					<div class="glory1" >
+						<div class="glory1_a">战神无双</div>
+						<div class="glory1_b glory1_b_0"></div>
+						<div class="glory1_c">完成额外目标可得</div>
+					</div>
+					<div class="glory2" >
+						<div class="glory2_a">忍者无敌</div>
+						<div class="glory2_b glory2_b_0"></div>
+						<div class="glory2_c">通关三次获得</div>
+					</div>
+				</div>
+			</div>
+			<div class="extra_target">
+				<div class="level_tip">额外目标</div>
+				<div class="targets">
+					<div class="target_1">
+						<div class="target_1_todo "></div>
+						<div class="target_1_text">看完知识点视频</div>
+						<div class="target_1_reward experiences">+1250</div>
+					</div>
+					<div class="target_1">
+						<div class="target_1_todo "></div>
+						<div class="target_1_text">连续答对2道题</div>
+						<div class="target_1_reward gems">+2</div>
+					</div>
+					<div class="target_1">
+						<div class="target_1_todo "></div>
+						<div class="target_1_text">210秒内答对3道题</div>
+						<div class="target_1_reward coins">+1000</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</a>
+	<a class="kn_one kn_one_lock  " data-stage_mine="1" data-stage_id="14929" data-stage_valid="1" data-stage_type="1" data-no="21" data-is_vip="1" href="javascript:;">
+		<div class="kn_o_name ellipsis" title="变压器的功率和电流">21. 变压器的功率和电流</div>
+		<div style="position:relative;">
+			<div class="clearfix">
+				<div class="kn_o_star star_0" id='' data-from='-1' data-to='-1'><span id='kn_o_star121' style='display:none'><div></div></span><span id='kn_o_star221' style='display:none'><div></div></span><span id='kn_o_star321' style='display:none'><div></div></span></div>
+				<div class="kn_o_lock"></div><div class="kn_o_more" style="display:none;"></div>
+			</div>
+			<div class="kn_o_tip_p"></div>
+			<div class="kn_o_type_icon   "></div>
+		</div>
+		<div class="kn_o_tip">
+			
+			<div class="level_glory" >
+				<div class="level_tip">关卡成就</div>
+				<div class="glorys clearfix">
+					<div class="glory1" >
+						<div class="glory1_a">战神无双</div>
+						<div class="glory1_b glory1_b_0"></div>
+						<div class="glory1_c">完成额外目标可得</div>
+					</div>
+					<div class="glory2" >
+						<div class="glory2_a">忍者无敌</div>
+						<div class="glory2_b glory2_b_0"></div>
+						<div class="glory2_c">通关三次获得</div>
+					</div>
+				</div>
+			</div>
+			<div class="extra_target">
+				<div class="level_tip">额外目标</div>
+				<div class="targets">
+					<div class="target_1">
+						<div class="target_1_todo "></div>
+						<div class="target_1_text">看完知识点视频</div>
+						<div class="target_1_reward experiences">+1250</div>
+					</div>
+					<div class="target_1">
+						<div class="target_1_todo "></div>
+						<div class="target_1_text">连续答对2道题</div>
+						<div class="target_1_reward gems">+2</div>
+					</div>
+					<div class="target_1">
+						<div class="target_1_todo "></div>
+						<div class="target_1_text">210秒内答对3道题</div>
+						<div class="target_1_reward coins">+1000</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</a>
+	<a class="kn_one kn_one_lock  " data-stage_mine="1" data-stage_id="14930" data-stage_valid="1" data-stage_type="3" data-no="22" data-is_vip="1" href="javascript:;">
+		<div class="kn_o_name ellipsis" title="自耦变压器和多级输出变压器">22. 自耦变压器和多级输出变压器</div>
+		<div style="position:relative;">
+			<div class="clearfix">
+				<div class="kn_o_clover"><span></span>0/1</div>
+				<div class="kn_o_lock"></div><div class="kn_o_more" style="display:none;"></div>
+			</div>
+			<div class="kn_o_tip_p"></div>
+			<div class="kn_o_type_icon  kn_o_type_hide "></div>
+		</div>
+		<div class="kn_o_tip">
+			
+			<div class="level_glory" >
+				<div class="level_tip">关卡成就</div>
+				<div class="glorys clearfix">
+					<div class="glory1" >
+						<div class="glory1_a">战神无双</div>
+						<div class="glory1_b glory1_b_0"></div>
+						<div class="glory1_c">完成额外目标可得</div>
+					</div>
+					<div class="glory2" >
+						<div class="glory2_a">忍者无敌</div>
+						<div class="glory2_b glory2_b_0"></div>
+						<div class="glory2_c">通关三次获得</div>
+					</div>
+				</div>
+			</div>
+			<div class="extra_target">
+				<div class="level_tip">额外目标</div>
+				<div class="targets">
+					<div class="target_1">
+						<div class="target_1_todo "></div>
+						<div class="target_1_text">看完知识点视频</div>
+						<div class="target_1_reward experiences">+1250</div>
+					</div>
+					<div class="target_1">
+						<div class="target_1_todo "></div>
+						<div class="target_1_text">连续答对2道题</div>
+						<div class="target_1_reward gems">+2</div>
+					</div>
+					<div class="target_1">
+						<div class="target_1_todo "></div>
+						<div class="target_1_text">210秒内答对3道题</div>
+						<div class="target_1_reward coins">+1000</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</a>
+	<a class="kn_one kn_one_lock  " data-stage_mine="1" data-stage_id="14931" data-stage_valid="1" data-stage_type="1" data-no="23" data-is_vip="1" href="javascript:;">
+		<div class="kn_o_name ellipsis" title="互感器">23. 互感器</div>
+		<div style="position:relative;">
+			<div class="clearfix">
+				<div class="kn_o_star star_0" id='' data-from='-1' data-to='-1'><span id='kn_o_star123' style='display:none'><div></div></span><span id='kn_o_star223' style='display:none'><div></div></span><span id='kn_o_star323' style='display:none'><div></div></span></div>
+				<div class="kn_o_lock"></div><div class="kn_o_more" style="display:none;"></div>
+			</div>
+			<div class="kn_o_tip_p"></div>
+			<div class="kn_o_type_icon   "></div>
+		</div>
+		<div class="kn_o_tip">
+			
+			<div class="level_glory" >
+				<div class="level_tip">关卡成就</div>
+				<div class="glorys clearfix">
+					<div class="glory1" >
+						<div class="glory1_a">战神无双</div>
+						<div class="glory1_b glory1_b_0"></div>
+						<div class="glory1_c">完成额外目标可得</div>
+					</div>
+					<div class="glory2" >
+						<div class="glory2_a">忍者无敌</div>
+						<div class="glory2_b glory2_b_0"></div>
+						<div class="glory2_c">通关三次获得</div>
+					</div>
+				</div>
+			</div>
+			<div class="extra_target">
+				<div class="level_tip">额外目标</div>
+				<div class="targets">
+					<div class="target_1">
+						<div class="target_1_todo "></div>
+						<div class="target_1_text">看完知识点视频</div>
+						<div class="target_1_reward experiences">+1250</div>
+					</div>
+					<div class="target_1">
+						<div class="target_1_todo "></div>
+						<div class="target_1_text">连续答对2道题</div>
+						<div class="target_1_reward gems">+2</div>
+					</div>
+					<div class="target_1">
+						<div class="target_1_todo "></div>
+						<div class="target_1_text">210秒内答对3道题</div>
+						<div class="target_1_reward coins">+1000</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</a>
+	<a class="kn_one kn_one_lock  " data-stage_mine="1" data-stage_id="14932" data-stage_valid="1" data-stage_type="3" data-no="24" data-is_vip="1" href="javascript:;">
+		<div class="kn_o_name ellipsis" title="线圈存在电阻时的变压器">24. 线圈存在电阻时的变压器</div>
+		<div style="position:relative;">
+			<div class="clearfix">
+				<div class="kn_o_clover"><span></span>0/1</div>
+				<div class="kn_o_lock"></div><div class="kn_o_more" style="display:none;"></div>
+			</div>
+			<div class="kn_o_tip_p"></div>
+			<div class="kn_o_type_icon  kn_o_type_hide "></div>
+		</div>
+		<div class="kn_o_tip">
+			
+			<div class="level_glory" >
+				<div class="level_tip">关卡成就</div>
+				<div class="glorys clearfix">
+					<div class="glory1" >
+						<div class="glory1_a">战神无双</div>
+						<div class="glory1_b glory1_b_0"></div>
+						<div class="glory1_c">完成额外目标可得</div>
+					</div>
+					<div class="glory2" >
+						<div class="glory2_a">忍者无敌</div>
+						<div class="glory2_b glory2_b_0"></div>
+						<div class="glory2_c">通关三次获得</div>
+					</div>
+				</div>
+			</div>
+			<div class="extra_target">
+				<div class="level_tip">额外目标</div>
+				<div class="targets">
+					<div class="target_1">
+						<div class="target_1_todo "></div>
+						<div class="target_1_text">看完知识点视频</div>
+						<div class="target_1_reward experiences">+1250</div>
+					</div>
+					<div class="target_1">
+						<div class="target_1_todo "></div>
+						<div class="target_1_text">连续答对2道题</div>
+						<div class="target_1_reward gems">+2</div>
+					</div>
+					<div class="target_1">
+						<div class="target_1_todo "></div>
+						<div class="target_1_text">210秒内答对3道题</div>
+						<div class="target_1_reward coins">+1000</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</a>
+	<a class="kn_one kn_one_lock  " data-stage_mine="1" data-stage_id="14933" data-stage_valid="1" data-stage_type="1" data-no="25" data-is_vip="1" href="javascript:;">
+		<div class="kn_o_name ellipsis" title="输电模型中的电压问题">25. 输电模型中的电压问题</div>
+		<div style="position:relative;">
+			<div class="clearfix">
+				<div class="kn_o_star star_0" id='' data-from='-1' data-to='-1'><span id='kn_o_star125' style='display:none'><div></div></span><span id='kn_o_star225' style='display:none'><div></div></span><span id='kn_o_star325' style='display:none'><div></div></span></div>
+				<div class="kn_o_lock"></div><div class="kn_o_more" style="display:none;"></div>
+			</div>
+			<div class="kn_o_tip_p"></div>
+			<div class="kn_o_type_icon   "></div>
+		</div>
+		<div class="kn_o_tip">
+			
+			<div class="level_glory" >
+				<div class="level_tip">关卡成就</div>
+				<div class="glorys clearfix">
+					<div class="glory1" >
+						<div class="glory1_a">战神无双</div>
+						<div class="glory1_b glory1_b_0"></div>
+						<div class="glory1_c">完成额外目标可得</div>
+					</div>
+					<div class="glory2" >
+						<div class="glory2_a">忍者无敌</div>
+						<div class="glory2_b glory2_b_0"></div>
+						<div class="glory2_c">通关三次获得</div>
+					</div>
+				</div>
+			</div>
+			<div class="extra_target">
+				<div class="level_tip">额外目标</div>
+				<div class="targets">
+					<div class="target_1">
+						<div class="target_1_todo "></div>
+						<div class="target_1_text">看完知识点视频</div>
+						<div class="target_1_reward experiences">+1250</div>
+					</div>
+					<div class="target_1">
+						<div class="target_1_todo "></div>
+						<div class="target_1_text">连续答对2道题</div>
+						<div class="target_1_reward gems">+2</div>
+					</div>
+					<div class="target_1">
+						<div class="target_1_todo "></div>
+						<div class="target_1_text">210秒内答对3道题</div>
+						<div class="target_1_reward coins">+1000</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</a>
+	<a class="kn_one kn_one_lock  " data-stage_mine="1" data-stage_id="14934" data-stage_valid="1" data-stage_type="1" data-no="26" data-is_vip="1" href="javascript:;">
+		<div class="kn_o_name ellipsis" title="输电模型中的功率问题">26. 输电模型中的功率问题</div>
+		<div style="position:relative;">
+			<div class="clearfix">
+				<div class="kn_o_star star_0" id='' data-from='-1' data-to='-1'><span id='kn_o_star126' style='display:none'><div></div></span><span id='kn_o_star226' style='display:none'><div></div></span><span id='kn_o_star326' style='display:none'><div></div></span></div>
+				<div class="kn_o_lock"></div><div class="kn_o_more" style="display:none;"></div>
+			</div>
+			<div class="kn_o_tip_p"></div>
+			<div class="kn_o_type_icon   "></div>
+		</div>
+		<div class="kn_o_tip">
+			
+			<div class="level_glory" >
+				<div class="level_tip">关卡成就</div>
+				<div class="glorys clearfix">
+					<div class="glory1" >
+						<div class="glory1_a">战神无双</div>
+						<div class="glory1_b glory1_b_0"></div>
+						<div class="glory1_c">完成额外目标可得</div>
+					</div>
+					<div class="glory2" >
+						<div class="glory2_a">忍者无敌</div>
+						<div class="glory2_b glory2_b_0"></div>
+						<div class="glory2_c">通关三次获得</div>
+					</div>
+				</div>
+			</div>
+			<div class="extra_target">
+				<div class="level_tip">额外目标</div>
+				<div class="targets">
+					<div class="target_1">
+						<div class="target_1_todo "></div>
+						<div class="target_1_text">看完知识点视频</div>
+						<div class="target_1_reward experiences">+1250</div>
+					</div>
+					<div class="target_1">
+						<div class="target_1_todo "></div>
+						<div class="target_1_text">连续答对2道题</div>
+						<div class="target_1_reward gems">+2</div>
+					</div>
+					<div class="target_1">
+						<div class="target_1_todo "></div>
+						<div class="target_1_text">210秒内答对3道题</div>
+						<div class="target_1_reward coins">+1000</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</a>
+	<a class="kn_one kn_one_lock  " data-stage_mine="1" data-stage_id="14935" data-stage_valid="1" data-stage_type="1" data-no="27" data-is_vip="1" href="javascript:;">
+		<div class="kn_o_name ellipsis" title="更具体的远距离输电模型">27. 更具体的远距离输电模型</div>
+		<div style="position:relative;">
+			<div class="clearfix">
+				<div class="kn_o_star star_0" id='' data-from='-1' data-to='-1'><span id='kn_o_star127' style='display:none'><div></div></span><span id='kn_o_star227' style='display:none'><div></div></span><span id='kn_o_star327' style='display:none'><div></div></span></div>
+				<div class="kn_o_lock"></div><div class="kn_o_more" style="display:none;"></div>
+			</div>
+			<div class="kn_o_tip_p"></div>
+			<div class="kn_o_type_icon   "></div>
+		</div>
+		<div class="kn_o_tip">
+			
+			<div class="level_glory" >
+				<div class="level_tip">关卡成就</div>
+				<div class="glorys clearfix">
+					<div class="glory1" >
+						<div class="glory1_a">战神无双</div>
+						<div class="glory1_b glory1_b_0"></div>
+						<div class="glory1_c">完成额外目标可得</div>
+					</div>
+					<div class="glory2" >
+						<div class="glory2_a">忍者无敌</div>
+						<div class="glory2_b glory2_b_0"></div>
+						<div class="glory2_c">通关三次获得</div>
+					</div>
+				</div>
+			</div>
+			<div class="extra_target">
+				<div class="level_tip">额外目标</div>
+				<div class="targets">
+					<div class="target_1">
+						<div class="target_1_todo "></div>
+						<div class="target_1_text">看完知识点视频</div>
+						<div class="target_1_reward experiences">+1250</div>
+					</div>
+					<div class="target_1">
+						<div class="target_1_todo "></div>
+						<div class="target_1_text">连续答对2道题</div>
+						<div class="target_1_reward gems">+2</div>
+					</div>
+					<div class="target_1">
+						<div class="target_1_todo "></div>
+						<div class="target_1_text">210秒内答对3道题</div>
+						<div class="target_1_reward coins">+1000</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</a>
+	<a class="kn_one kn_one_lock  " data-stage_mine="1" data-stage_id="14936" data-stage_valid="1" data-stage_type="1" data-no="28" data-is_vip="1" href="javascript:;">
+		<div class="kn_o_name ellipsis" title="电网简介">28. 电网简介</div>
+		<div style="position:relative;">
+			<div class="clearfix">
+				<div class="kn_o_star star_0" id='' data-from='-1' data-to='-1'><span id='kn_o_star128' style='display:none'><div></div></span><span id='kn_o_star228' style='display:none'><div></div></span><span id='kn_o_star328' style='display:none'><div></div></span></div>
+				<div class="kn_o_lock"></div><div class="kn_o_more" style="display:none;"></div>
+			</div>
+			<div class="kn_o_tip_p"></div>
+			<div class="kn_o_type_icon   "></div>
+		</div>
+		<div class="kn_o_tip">
+			
+			<div class="level_glory" >
+				<div class="level_tip">关卡成就</div>
+				<div class="glorys clearfix">
+					<div class="glory1" >
+						<div class="glory1_a">战神无双</div>
+						<div class="glory1_b glory1_b_0"></div>
+						<div class="glory1_c">完成额外目标可得</div>
+					</div>
+					<div class="glory2" >
+						<div class="glory2_a">忍者无敌</div>
+						<div class="glory2_b glory2_b_0"></div>
+						<div class="glory2_c">通关三次获得</div>
+					</div>
+				</div>
+			</div>
+			<div class="extra_target">
+				<div class="level_tip">额外目标</div>
+				<div class="targets">
+					<div class="target_1">
+						<div class="target_1_todo "></div>
+						<div class="target_1_text">看完知识点视频</div>
+						<div class="target_1_reward experiences">+1250</div>
+					</div>
+					<div class="target_1">
+						<div class="target_1_todo "></div>
+						<div class="target_1_text">连续答对2道题</div>
+						<div class="target_1_reward gems">+2</div>
+					</div>
+					<div class="target_1">
+						<div class="target_1_todo "></div>
+						<div class="target_1_text">210秒内答对3道题</div>
+						<div class="target_1_reward coins">+1000</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</a>
+	<a class="kn_one kn_one_lock  " data-stage_mine="1" data-stage_id="17671" data-stage_valid="1" data-stage_type="2" data-no="29" data-is_vip="1" href="javascript:;">
+		<div class="kn_o_name ellipsis" title="阶段复习">29. 阶段复习</div>
+		<div style="position:relative;">
+			<div class="clearfix">
+				<div class="kn_o_star star_0" id='' data-from='-1' data-to='-1'><span id='kn_o_star129' style='display:none'><div></div></span><span id='kn_o_star229' style='display:none'><div></div></span><span id='kn_o_star329' style='display:none'><div></div></span></div>
+				<div class="kn_o_lock"></div><div class="kn_o_more" style="display:none;"></div>
+			</div>
+			<div class="kn_o_tip_p"></div>
+			<div class="kn_o_type_icon kn_o_type_boss  "></div>
+		</div>
+		<div class="kn_o_tip">
+			
+			<div class="level_glory" style="display: block;margin:0px auto;">
+				<div class="level_tip">关卡成就</div>
+				<div class="glorys clearfix">
+					<div class="glory1" style="display:none;">
+						<div class="glory1_a">战神无双</div>
+						<div class="glory1_b glory1_b_0"></div>
+						<div class="glory1_c">完成额外目标可得</div>
+					</div>
+					<div class="glory2" style="display: block;float: none;margin:0px auto;">
+						<div class="glory2_a">忍者无敌</div>
+						<div class="glory2_b glory2_b_0"></div>
+						<div class="glory2_c">通关三次获得</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</a>
+</div>
+<div class="unlock_mask no_text_select">
+	<div class="unlock_wrapper">
+		<div class="unlock_title">解锁关卡</div>
+		<div class="unlock_body clearfix">
+            <div class="unlock_body_left">
+                <div class="unlock_body_title">解锁该关卡需要 100 乐豆</div>
+                <div class="unlock_body_content">乐豆不够？没关系，即刻下载手机版天天练<br>向万能的朋友圈求助，让好友帮你解锁吧！</div>
+            </div>
+            <div class="unlock_body_pic">
+                <div class="unlock_pic_text">扫码下载</div>
+            </div>
+        </div>
+		<span class="unlock_cancle">取消</span>
+		<span class="unlock_confirm">确认</span>
+	</div>
+</div>
+    </div>
+    <div class="wrapper_right">
+        	<div class="my_cr no_text_select" id="my_card">
+		<div class="my_card_head">
+			<a class="login" href="http://www.leleketang.com/login/login.php">登录</a>		</div>
+		<div>
+            <div class="mc_user_list clearfix">
+				<a id="my_card_news" href="javascript:;"></a>                <a target="_blank" rel="nofollow" href="javascript:;">
+					<img width="60" height="60" src="/login/image/anony2.png" />
+					<span class="name_in_banji ellipsis" title=""></span>
+				</a>
+				<div class="mc_users">
+                    <div class="mc_users_name ellipsis"><a target="_blank" rel="nofollow" href="javascript:;" title="游客310237403">游客310237403</a></div>
+                    <div class="mc_users_signature" id="mc_expwrap" data-levelup_exp="6250" title="升到下一级还需6250点经验">
+                        <div class="mc_users_signature_ok" id="mc_expgap" style="width: 0px" data-number="0">
+                            <span class="mc_experiences_gap" id="mc_level" data-number="1">1</span>
+                            <span class="mc_experiences_number" data-number="0" id="mc_exp">0</span>
+                        </div>
+                    </div>
+                </div>				<span id="get_experience" class="my_exp"></span>
+            </div>
+<div class="my_info">
+            <div class="mc_achievement">
+                <div class="mc_achievement_title clearfix">获得的成就：</div>
+                <div class="mc_star clearfix" title="星星">
+                    <span class="lv_medal"></span>
+                    <span class="mc_counts" id="mc_star" data-number="0">0</span>
+                </div>
+				<div class="mc_coin clearfix" title="乐币">
+                    <span class="lv_coin"></span>
+                    <span class="mc_counts" id="mc_coin" data-number="0">0</span>
+                </div>
+                <div class="mc_gem clearfix" title="乐豆">
+                    <span class="lv_gem"></span>
+                    <span class="mc_counts" id="mc_gem" data-number="0">0</span>
+                </div>
+            </div>
+            <a rel="nofollow" href="clan.php?state=categories.php" class="mc_my_clan"><span class="mc_my_clans">部落排行</span></a>
+			<!-- <div class="cr_feedback">
+					<div class="cr_feedback_title">QQ交流群：</div>
+					<span>乐乐课堂家长群：　294189403</span>
+					<span>乐乐课堂中学生群：569635672</span>
+					<span>乐乐课堂小学生群：372106342</span>
+			</div> -->
+	</div>
+	</div>
+	</div>
+    </div>
+</div>
+
+</body>
+</html>
